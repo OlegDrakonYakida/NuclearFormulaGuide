@@ -1,9 +1,9 @@
 {
-  "room": [
+  "": [
     {
-      "name": "117",
-      "formula_code": "\\frac{x}{y}",
-      "description": "Hello World!"
+      "name": "",
+      "formula_code": "",
+      "description": ""
     }
   ]
 }
