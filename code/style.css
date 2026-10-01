@@ -1,5 +1,16 @@
-h1[id="site-name"] {
-    text-align: center;
+div[id="promo"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
+}
+
+img[id="icon"] {
+    width: 5cap;
+    height: 5cap;
+
+    padding-top: 0.7%;
+
 }
 
 .formula-card {
