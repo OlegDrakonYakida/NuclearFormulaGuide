@@ -16,7 +16,7 @@
   "ex": [
     {
       "name": "\u0424\u043e\u0440\u043c\u0443\u043b\u0430",
-      "formula_code": "\\frac{2x}{\\ovarrightarrow{y}}",
+      "formula_code": "\\frac{2x}{\\overrightarrow{y}}",
       "description": "\u041a\u0430\u043a\u0430\u044f-\u0442\u043e \u0444\u043e\u0440\u043c\u0443\u043b\u0430"
     }
   ]
