@@ -26,5 +26,12 @@
       "formula_code": "frac2",
       "description": "asd2"
     }
+  ],
+  "room3": [
+    {
+      "name": "Hello!3",
+      "formula_code": "frac3",
+      "description": "asd3"
+    }
   ]
 }
