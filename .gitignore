@@ -12,6 +12,7 @@
 *.env
 *.py
 *.pyw
+*.ico
 local.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
