@@ -12,7 +12,7 @@
 *.env
 *.py
 *.pyw
-*.json
+formulas.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
