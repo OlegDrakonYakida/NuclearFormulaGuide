@@ -16,8 +16,8 @@
   "room": [
     {
       "name": "Hello!",
-      "formula_code": "",
-      "description": ""
+      "formula_code": "frac",
+      "description": "asd"
     }
   ]
 }
