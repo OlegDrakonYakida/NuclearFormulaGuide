@@ -1,6 +1,6 @@
 const container = document.getElementById("formulas");
 
-fetch("formulas.json")
+fetch("../data/formulas.json")
     .then(response => response.json())
     .then(data => {
 
