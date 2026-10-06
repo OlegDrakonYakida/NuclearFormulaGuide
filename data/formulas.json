@@ -22,19 +22,7 @@
         "\u0442\u0435\u0440\u043c\u0456\u043d\u0438"
       ]
     }
-  ],
-  "EX": [
-    {
-      "name": "EX",
-      "formula_code": "E = mc^2",
-      "description": "E = mc",
-      "category": "\u0415\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u043d\u0456 \u0441\u0442\u0440\u0443\u043c\u0438",
-      "tags": [
-        "test",
-        "room"
-      ]
-    }
-  ],
+  ],  
   "room": [
     {
       "name": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u041a\u043e\u043c\u043d\u0430\u0442\u0430",
@@ -60,9 +48,9 @@
       ]
     }
   ],
-  "room35": [
+  "roomEX": [
     {
-      "name": "\u0422\u0435\u0441\u0442\u043e\u0432\u0430\u044f \u041a\u043e\u043c\u043d\u0430\u0442\u0430 36",
+      "name": "LALALA",
       "formula_code": "\\oint{\\vec{E}dS} = Q_\\text{\u0441\u0432\u043e\u0431}",
       "description": "Oint",
       "category": "\u041f\u043e\u043b\u044f \u0440\u0443\u0445\u043e\u043c\u0438\u0445 \u0437\u0430\u0440\u044f\u0434\u0456\u0432",
