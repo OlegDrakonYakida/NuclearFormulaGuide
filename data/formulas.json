@@ -43,5 +43,17 @@
         "tabs"
       ]
     }
+  ],
+  "room3": [
+    {
+      "name": "ex3",
+      "formula_code": "\\text{taburet333}",
+      "description": "Hello!333",
+      "category": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u0442\u0438\u043a\u0430",
+      "tags": [
+        "hi3",
+        "tabs"
+      ]
+    }
   ]
 }
