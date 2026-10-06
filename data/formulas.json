@@ -34,7 +34,7 @@
   ],
   "room": [
     {
-      "name": "ex",
+      "name": "room1",
       "formula_code": "\\text{taburet}",
       "description": "Hello!",
       "category": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u0442\u0438\u043a\u0430",
@@ -46,13 +46,24 @@
   ],
   "room3": [
     {
-      "name": "ex3",
+      "name": "room3",
       "formula_code": "\\text{taburet333}",
-      "description": "Hello!333",
+      "description": "Hello!117",
       "category": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u0442\u0438\u043a\u0430",
       "tags": [
         "hi3",
         "tabs"
+      ]
+    }
+  ],
+  "ex": [
+    {
+      "name": "ex2",
+      "formula_code": "ex",
+      "description": "3ere",
+      "category": "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u0442\u0438\u043a\u0430",
+      "tags": [
+        "exx"
       ]
     }
   ]
