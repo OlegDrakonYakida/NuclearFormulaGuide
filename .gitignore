@@ -13,6 +13,8 @@
 *.py
 *.pyw
 *.ico
+*.spec
+*.exe
 local.json
 settings.json
 .DS_Store
@@ -35,6 +37,7 @@ mono_crash.*
 [Rr]eleases/x64/
 bin/x64/
 obj/x64/
+build
 
 [Dd]ebug/x86/
 [Dd]ebugPublic/x86/
