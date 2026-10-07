@@ -4,14 +4,43 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="code/style.css" />
     <link rel="shortcut icon" href="img/nuclear_icon_1.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu,search,close" />
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuclear Formula Guide</title>
 </head>
 <body>
     <div id="promo">
-        <img id="icon" src="img/nuclear_icon_2.png" alt="icon">
-        <h1 id="site-name">Ядерный справочник формул</h1>
+        <div id="promo-left">
+            <button id="categories-button">
+                <span class="material-symbols-outlined">menu</span>
+                Категории</button>
+        </div>
+        <div id="promo-center">        
+            <img id="icon" src="img/nuclear_icon_2.png" alt="icon">
+            <h1 id="site-name">Ядерный справочник формул</h1>        
+        </div>
+        <div id="promo-right">
+            <div id="search-box">
+                <span class="material-symbols-outlined">search</span>
+                <input type="text" placeholder="Поиск...">
+            </div>
+        </div>
     </div>    
+
+    <div id="category-overlay"></div>
+
+    <aside id="category-menu">
+        <div id="category-menu-header">
+            <h2>Категории</h2>
+
+            <button id="close-categories">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+        </div>
+
+        <div id="category-list"></div>
+    </aside>
 
     <div id="formulas"></div>
 
