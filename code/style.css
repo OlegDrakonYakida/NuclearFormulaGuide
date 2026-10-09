@@ -199,6 +199,33 @@
     background: #eeeeee;
 }
 
+#site-footer {
+    margin-top: 40px;
+    padding: 20px 10px;
+
+    border-top: 1px solid #ddd;
+
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#formulas {
+    flex: 1;
+}
+
 .formula-card {
     width: 600px;
     margin: 20px auto;
