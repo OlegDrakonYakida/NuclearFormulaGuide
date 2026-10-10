@@ -8,7 +8,7 @@ const closeCategoriesButton = document.getElementById("close-categories");
 const container = document.getElementById("formulas");
 
 const categories = [
-    "Все",
+    "Усі формули",
     "Електростатичне поле у вакуумі", 
     "Провідники в електростатичному полі", 
     "Електричне поле в діелектриках", 
@@ -27,8 +27,7 @@ const categories = [
 
 // Служебные переменные
 let formulasData = {}
-
-let currentCategory = "Все";
+let currentCategory = "Усі формули";
 let currentTags = [];
 let currentSearch = "";
 
@@ -101,10 +100,9 @@ function renderFormulas() {
 
     for (const id in formulasData) {
         const formula = formulasData[id][0];
-
-        // Пропускаем формулы из других категорий
+        
         if (
-            currentCategory !== "Все" &&
+            currentCategory !== "Усі формули" &&
             formula.category !== currentCategory
         ) {
             continue;
@@ -131,7 +129,7 @@ function renderFormulas() {
         card.innerHTML = `
             <h2>${formula.name}</h2>
             <div class="formula">$${formula.formula_code}$</div>
-            <h3>Описание:</h3>
+            <h3>Опис:</h3>
             <p>${formula.description}</p>
         `;
 
@@ -148,27 +146,3 @@ searchInput.addEventListener("input", () => {
     currentSearch = searchInput.value;
     renderFormulas();
 });
-
-// async function loadFormulas() {
-//     fetch("data/formulas.json")
-//         .then(response => response.json())
-//         .then(data => {
-
-//             for (const id in data) {
-//                 const card = document.createElement("div");
-//                 card.classList.add("formula-card");
-
-//                 card.innerHTML = `
-//                     <h2>${data[id][0].name}</h2>
-//                     <div class="formula">$${data[id][0].formula_code}$</div>
-//                     <h3>Описание:</h3>
-//                     <p>${data[id][0].description}</p>
-//                 `;
-
-//                 container.appendChild(card);
-//                 MathJax.typesetPromise([card]);
-//             }
-//     });    
-// }
-
-
