@@ -243,6 +243,10 @@ body {
     margin-top: 0;
 }
 
+.formula-card p {
+    white-space: pre-line;
+}
+
 .formula {
     padding: 15px;
     margin: 15px 0;
